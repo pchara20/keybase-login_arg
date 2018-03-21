@@ -1,65 +1,25 @@
 {
-  "_from": "keybase-login",
-  "_id": "keybase-login@1.0.1",
-  "_inBundle": false,
-  "_integrity": "sha1-7F/6f2hTVBItP7buGFwdT68FDcI=",
-  "_location": "/keybase-login",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "keybase-login",
-    "name": "keybase-login",
-    "escapedName": "keybase-login",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/keybase-login/-/keybase-login-1.0.1.tgz",
-  "_shasum": "ec5ffa7f685354122d3fb6ee185c1d4faf050dc2",
-  "_spec": "keybase-login",
-  "_where": "C:\\Users\\panao\\OneDrive - University of Cyprus\\UCY\\Elias\\keybase_server\\keybase-server",
-  "author": {
-    "name": "Maxwell Krohn"
-  },
+  "name": "keybase-login_arg",
+  "version": "1.0.0",
+  "description": "A demo login system",
+  "main": "index.js",
   "bin": {
-    "keybase-login": "./bin/main.js"
+    "keybase-login_arg": "main.js"
   },
-  "bugs": {
-    "url": "https://github.com/keybase/node-login/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "iced-coffee-script-3": "^110.0.0",
-    "iced-error": "0.0.9",
-    "iced-runtime-3": "^3.0.4",
-    "kbpgp": "^2.0.58",
-    "keybase-proofs": "^2.0.58",
-    "read": "^1.0.7",
-    "request": "^2.78.0",
-    "triplesec": "^3.0.25"
-  },
-  "deprecated": false,
-  "description": "a sample Keybase login system",
-  "homepage": "https://github.com/keybase/node-login#readme",
-  "keywords": [
-    "Keybase",
-    "login"
-  ],
-  "license": "BSD-3-Clause",
-  "main": "lib/main.js",
-  "name": "keybase-login",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/keybase/node-login.git"
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
-    "make": "iced3 --compile --output lib/ src/*.iced",
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pchara20/keybase-login_arg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pchara20/keybase-login_arg/issues"
+  },
+  "homepage": "https://github.com/pchara20/keybase-login_arg#readme"
 }
