@@ -1,16 +1,17 @@
 {
   "name": "keybase-login_arg",
   "version": "1.0.0",
-  "description": "A demo login system",
-  "main": "index.js",
+  "description": "modified keybase login feature",
+  "main": "lib/main.js",
   "bin": {
-    "keybase-login_arg": "bin/main.js"
+    "keybase-login_arg": "./bin/main.js"
   },
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test",
+    "make": "./node_modules/.bin/iced3 --compile --output lib/ src/*.iced"
   },
   "repository": {
     "type": "git",
