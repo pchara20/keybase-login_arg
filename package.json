@@ -1,5 +1,5 @@
 {
-  "name": "keybase-login",
+  "name": "keybase-login_arg",
   "version": "1.0.1",
   "description": "a sample Keybase login system",
   "main": "lib/main.js",
