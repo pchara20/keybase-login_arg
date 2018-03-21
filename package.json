@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/pchara20/keybase-login_arg/issues"
   },
-  "homepage": "https://github.com/pchara20/keybase-login_arg#readme"
+  "homepage": "https://github.com/pchara20/keybase-login_arg#readme",
+  "dependencies": {
+    "iced-coffee-script-3": "^110.0.0",
+    "iced-error": "0.0.9",
+    "iced-runtime-3": "^3.0.4",
+    "kbpgp": "^2.0.58",
+    "keybase-proofs": "^2.0.58",
+    "read": "^1.0.7",
+    "request": "^2.78.0",
+    "triplesec": "^3.0.25"
+  }
 }
