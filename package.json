@@ -1,28 +1,24 @@
 {
-  "name": "keybase-login_arg",
-  "version": "1.0.0",
-  "description": "modified keybase login feature",
+  "name": "keybase-login",
+  "version": "1.0.1",
+  "description": "a sample Keybase login system",
   "main": "lib/main.js",
-  "bin": {
-    "keybase-login_arg": "./bin/main.js"
-  },
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "npm test",
     "make": "./node_modules/.bin/iced3 --compile --output lib/ src/*.iced"
+  },  
+  "bin": {
+    "keybase-login": "./bin/main.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pchara20/keybase-login_arg.git"
-  },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Keybase",
+    "login"
+  ],
+  "author": "Maxwell Krohn",
+  "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/pchara20/keybase-login_arg/issues"
+    "url": "https://github.com/keybase/node-login/issues"
   },
-  "homepage": "https://github.com/pchara20/keybase-login_arg#readme",
   "dependencies": {
     "iced-coffee-script-3": "^110.0.0",
     "iced-error": "0.0.9",
