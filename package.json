@@ -4,7 +4,7 @@
   "description": "A demo login system",
   "main": "index.js",
   "bin": {
-    "keybase-login_arg": "main.js"
+    "keybase-login_arg": "bin/main.js"
   },
   "directories": {
     "lib": "lib"
